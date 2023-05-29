@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+  body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: linear-gradient(#009688 0%, #009688 130px, #d9dbd5 130px, #d9dbd5 100%);
+      overflow: hidden;
+  }
+
+    @media screen and (min-width: 1480px) {
+        #root {
+          position: relative;
+          width: 1396px;
+          max-width: 100%;
+          height: calc(100vh - 40px);
+          background: #fff;
+          display: flex;
+        }
+      }
+      @media screen and (min-device-width: 1280px) and (max-device-width: 1479px) {
+        #root{
+          position: relative;
+          max-width: 100%;
+          height: calc(100vh - 40px);
+          background: #fff;
+          width: 1180px;
+          display: flex;
+        }
+      }
+      @media screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
+        #root {
+          position: relative;
+          max-width: 100%;
+          height: calc(100vh - 40px);
+          background: #fff;
+          width: 980px;
+          display: flex;
+        }
+      }
+      @media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+        #root {
+          position: relative;
+          max-width: 100%;
+          height: calc(100vh - 40px);
+          background: #fff;
+          width: 740px;
+          display: flex;
+        }
+      }
+      @media screen and (min-device-width: 640px) and (max-device-width: 767px) {
+        #root {
+          position: relative;
+          max-width: 100%;
+          height: calc(100vh - 40px);
+          background: #fff;
+          width: 600px;
+          display: flex;
+        }
+      }
+      @media screen and (max-device-width: 639px) {
+        #root {
+          position: relative;
+          max-width: 100%;
+          height: calc(100vh - 40px);
+          background: #fff;
+          width: 500px;
+          display: flex;
+        }
+      }
+      
+@tailwind utilities;
